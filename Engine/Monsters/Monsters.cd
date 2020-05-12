@@ -35,7 +35,7 @@
       <FileName>Engine\Monsters\MonsterFactories\RatFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Game.Snake" HideInheritanceLine="true">
+  <Class Name="Game.Snake" Collapsed="true" HideInheritanceLine="true">
     <Position X="4" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -45,7 +45,7 @@
   <Class Name="Game.SnakeEvolved" Collapsed="true" HideInheritanceLine="true">
     <Position X="4" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SnakeEvolved.cs</FileName>
     </TypeIdentifier>
   </Class>

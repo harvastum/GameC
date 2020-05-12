@@ -19,7 +19,7 @@ namespace Game
             Stamina = 70;
             XPValue = 40 + level + level/2   ;
             Name = "monster0003";
-            BattleGreetings = "Don't come too close, I bite!"; // rat doesn't say anything
+            BattleGreetings = "Don't come too close, I bite!"; 
         }
 
         public override List<StatPackage> BattleMove()
@@ -28,6 +28,7 @@ namespace Game
             attack.Add(new StatPackage("stab",10 + strength, $"Snake bit you! (+{10 + strength} stab damage!"));
             if (Stamina > 5)
             {
+                Stamina -= 5;
                  attack.Add(new StatPackage("poison", MagicPower/5, $"It's a venomous bite! (+{MagicPower / 5} poison damage)"));
             }
             return attack;
