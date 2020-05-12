@@ -27,7 +27,7 @@ namespace Game.Engine.Items
             return pack;
         }
 
-        public virtual void ApplyBuffs(Player currentPlayer, List<string> otherItems)
+        public override void ApplyBuffs(Player currentPlayer, List<string> otherItems)
         {
             base.ApplyBuffs(currentPlayer, otherItems);
             currentPlayer.MagicPower = 0;
