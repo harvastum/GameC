@@ -18,7 +18,7 @@ namespace Game.Engine.Monsters
             Precision = 50;
             MagicPower = 0;
             Stamina = 70;
-            XPValue = 40 + ratLevel;
+            XPValue = 250 + ratLevel;
             Name = "monster0002";
             BattleGreetings = "You defeated me but now I'm back with venom!"; // this rat actually has something to say
         }

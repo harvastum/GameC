@@ -7,11 +7,11 @@ namespace Game.Engine.Skills.AdvancedSpells
     [Serializable]
     class EarthBolt : Skill
     {
-        public static string type = "fire";
-        public EarthBolt() : base("Earth Bolt", 20, 4)
+        public EarthBolt() : base("Earth Bolt", 20, 2)
         {
             PublicName = $"{Name}: a chance equal to your Precision/2  to land 1*MP damage [{type}]";
             RequiredItem = "Staff";
+            type = "fire";
         }
         public override List<StatPackage> BattleMove(Player player)
         {

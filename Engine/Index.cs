@@ -14,7 +14,8 @@ namespace Game.Engine
     public partial class Index
     {
         private static List<SkillFactory> magicSkillFactories = new List<SkillFactory>()
-        {
+        {   
+            new AdvancedSpellFactory(),
             new BasicSpellFactory()
         };
 

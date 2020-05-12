@@ -21,11 +21,12 @@
       <FileName>Engine\Skills\Skill.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Game.Engine.Skills.SkillFactories.BasicSpellFactory" BaseTypeListCollapsed="true">
+  <Class Name="Game.Engine.Skills.SkillFactories.AdvancedSpellFactory" BaseTypeListCollapsed="true">
     <Position X="7.5" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
-      <FileName>Engine\Skills\SkillFactories\BasicSpellFactory.cs</FileName>
+      <FileName>Engine\Skills\SkillFactories\AdvancedSkillFactory.cs</FileName>
+      <NewMemberFileName>Engine\Skills\SkillFactories\BasicSpellFactory.cs</NewMemberFileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
