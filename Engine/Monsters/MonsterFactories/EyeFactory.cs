@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Game.Engine.Monsters.MonsterFactories
 {
+    [Serializable]
     public class EyeFactory : Engine.Monsters.MonsterFactories.MonsterFactory
     {
         private int encounterNumber = 0; // how many times has this factory been used already?

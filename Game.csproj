@@ -76,6 +76,7 @@
     </ApplicationDefinition>
     <Compile Include="Engine\Items\BasicArmor\WoodArmor.cs" />
     <Compile Include="Engine\Items\ElephantsBane.cs" />
+    <Compile Include="Engine\Items\ItemFactories\AdvancedItemFactory.cs" />
     <Compile Include="Engine\Items\NullMagicHatchet.cs" />
     <Compile Include="Engine\Monsters\Elephant.cs" />
     <Compile Include="Engine\Monsters\ElephantEvolved.cs" />

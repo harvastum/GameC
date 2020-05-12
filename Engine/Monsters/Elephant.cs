@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Game.Engine.Monsters
 {
+    [Serializable]
     public class Elephant : Engine.Monsters.Monster
     {
         public Elephant(int level)

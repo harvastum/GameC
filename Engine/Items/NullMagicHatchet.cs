@@ -7,6 +7,7 @@ using Game.Engine.CharacterClasses;
 
 namespace Game.Engine.Items
 {
+    [Serializable]
     class NullMagicHatchet : Axe
     {
         public NullMagicHatchet() : base("item0010")

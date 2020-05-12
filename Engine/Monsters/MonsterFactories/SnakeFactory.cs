@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Game.Engine.Monsters.MonsterFactories
 {
+    [Serializable]
     public class SnakeFactory : MonsterFactory
     {        // this factory produces snakes (and evolved snakes)
 

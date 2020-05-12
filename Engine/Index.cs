@@ -32,17 +32,24 @@ namespace Game.Engine
             new SteelArmor(),
             new AntiMagicArmor(),
             new BerserkerArmor(),
-            new GrowingStoneArmor()
+            new GrowingStoneArmor(),
+            new ElephantsBane(),
+            new NullMagicHatchet(),
+            new WoodArmor()
         };
 
         private static List<ItemFactory> itemFactories = new List<ItemFactory>()
         {
-            new BasicArmorFactory()
+            new BasicArmorFactory(),
+            new AdvancedItemFactory()
         };
 
         private static List<MonsterFactory> monsterFactories = new List<MonsterFactory>()
         {
-            new Monsters.MonsterFactories.RatFactory()
+            new Monsters.MonsterFactories.RatFactory(),
+            new ElephantFactory(),
+            new EyeFactory(),
+            new SnakeFactory()
         };
 
         private static List<InteractionFactory> interactionFactories = new List<InteractionFactory>()
