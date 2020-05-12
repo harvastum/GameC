@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Game.Engine;
 
-namespace Game
+namespace Game.Engine.Monsters
 {
     public class ElephantEvolved : Engine.Monsters.Monster
     {

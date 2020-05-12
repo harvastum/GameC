@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Remoting.Activation;
 using System.Text;
-using Game.Engine;
 
-namespace Game
+namespace Game.Engine.Monsters
 {
     public class Snake : Engine.Monsters.Monster
     {

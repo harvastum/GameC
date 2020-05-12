@@ -74,12 +74,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Elephant.cs" />
-    <Compile Include="ElephantEvolved.cs" />
-    <Compile Include="Eye.cs" />
-    <Compile Include="EyeEvolved.cs" />
-    <Compile Include="Snake.cs" />
-    <Compile Include="SnakeEvolved.cs" />
+    <Compile Include="Engine\Monsters\Elephant.cs" />
+    <Compile Include="Engine\Monsters\ElephantEvolved.cs" />
+    <Compile Include="Engine\Monsters\MonsterFactories\ElephantFactory.cs" />
+    <Compile Include="Engine\Monsters\Eye.cs" />
+    <Compile Include="Engine\Monsters\EyeEvolved.cs" />
+    <Compile Include="Engine\Monsters\MonsterFactories\EyeFactory.cs" />
+    <Compile Include="Engine\Monsters\Snake.cs" />
+    <Compile Include="Engine\Monsters\SnakeEvolved.cs" />
+    <Compile Include="Engine\Monsters\MonsterFactories\SnakeFactory.cs" />
     <Page Include="Display\GamePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
