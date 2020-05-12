@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Game.Engine.Skills.SkillDecorator">
+    <Position X="3.5" Y="1.25" Width="1.5" />
+    <InheritanceLine Type="Game.Engine.Skills.Skill" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="2.25" />
+        <Point X="1.25" Y="1.812" />
+        <Point X="3.5" Y="1.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\SkillDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.Skill">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACQIAAAAAAAEAAAAAAQAAAABAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Engine\Skills\Skill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.SkillFactories.BasicSpellFactory" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\SkillFactories\BasicSpellFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Engine.Skills.SkillFactories.BasicWeaponMoveFactory" BaseTypeListCollapsed="true">
+    <Position X="9" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\SkillFactories\BasicWeaponMoveFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicWeaponMoves.AxeCut">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <InheritanceLine Type="Game.Engine.Skills.Skill" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="5.411" />
+        <Point X="1.25" Y="6" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicWeaponMoves\AxeCut.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicWeaponMoves.SpearStab">
+    <Position X="2" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicWeaponMoves\SpearStab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicWeaponMoves.SwordSlash">
+    <Position X="3.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicWeaponMoves\SwordSlash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.FireArrow">
+    <Position X="5.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicSpells\FireArrow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.BoltDecorator">
+    <Position X="2" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\AdvancedSpells\BoltDecorator.cs</FileName>
+      <NewMemberFileName>Engine\Skills\BasicSpells\FireArrowDecorator.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.LightFlash">
+    <Position X="6.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicSpells\LightFlash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.WindGust">
+    <Position X="8.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicSpells\WindGust.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.LightFlashDecorator">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicSpells\LightFlashDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Skills.BasicSkills.WindGustDecorator">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\BasicSpells\WindGustDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Game.Engine.Skills.SkillFactories.SkillFactory">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Skills\SkillFactories\SkillFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
