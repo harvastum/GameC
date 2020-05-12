@@ -48,5 +48,21 @@ namespace Game.Engine.Monsters
 
             return attack;
         }
+        public override void React(List<StatPackage> packs)
+        {
+            foreach (StatPackage pack in packs)
+            {
+                if (pack.DamageType == "elephant")
+                {
+                    Health /= 2;
+                    Stamina /= 2;
+                }
+                Health -= pack.HealthDmg;
+                Strength -= pack.StrengthDmg;
+                Armor -= pack.ArmorDmg;
+                Precision -= pack.PrecisionDmg;
+                MagicPower -= pack.MagicPowerDmg;
+            }
+        }
     }
 }
