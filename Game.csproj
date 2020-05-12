@@ -74,6 +74,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Elephant.cs" />
+    <Compile Include="ElephantEvolved.cs" />
+    <Compile Include="Eye.cs" />
+    <Compile Include="EyeEvolved.cs" />
+    <Compile Include="Snake.cs" />
+    <Compile Include="SnakeEvolved.cs" />
     <Page Include="Display\GamePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -195,6 +201,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="Engine\Monsters\Monsters.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
