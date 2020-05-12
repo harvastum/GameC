@@ -74,6 +74,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Engine\Items\BasicArmor\WoodArmor.cs" />
     <Compile Include="Engine\Items\ElephantsBane.cs" />
     <Compile Include="Engine\Items\NullMagicHatchet.cs" />
     <Compile Include="Engine\Monsters\Elephant.cs" />
@@ -298,6 +299,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Display\Assets\item0010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\item0011.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
