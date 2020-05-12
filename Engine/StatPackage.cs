@@ -22,6 +22,7 @@ namespace Game.Engine
         public int MagicPowerDmg { get; set; }
         public string DamageType { get; set; }
         public string CustomText { get; set; }
+        public int MagicMultiplier { get; set; }
         public StatPackage(string dmgType)
         {
             DamageType = dmgType;

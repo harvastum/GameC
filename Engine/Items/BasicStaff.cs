@@ -10,7 +10,7 @@ namespace Game.Engine.Items
     class BasicStaff : Staff
     {
         // simple staff
-        public BasicStaff() : base("item0001") 
+        public BasicStaff() : base("item000") 
         {
             MgcMod = 10;
             GoldValue = 10;

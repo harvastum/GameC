@@ -21,6 +21,7 @@ namespace Game.Engine.Monsters
                 Armor -= pack.ArmorDmg;
                 Precision -= pack.PrecisionDmg;
                 MagicPower -= pack.MagicPowerDmg;
+                MagicPower *= pack.MagicMultiplier;
             }
         }
     }
