@@ -16,7 +16,7 @@ namespace Game
             Precision = 85;
             MagicPower = 30 + level * 20;
             Stamina = 150;
-            XPValue = 40 + level + level / 2;
+            XPValue = 150 + level + level / 2;
             Name = "monster0004";
             BattleGreetings = "Get ready to lose your breath and body!"; 
         }
