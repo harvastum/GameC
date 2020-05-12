@@ -5,29 +5,28 @@ using System.Text;
 
 namespace Game.Engine.Monsters.MonsterFactories
 {
-    public class SnakeFactory : Engine.Monsters.MonsterFactories.MonsterFactory
-    {        // this factory produces rats (or evolved rats)
+    public class SnakeFactory : MonsterFactory
+    {        // this factory produces snakes (and evolved snakes)
 
         private int encounterNumber = 0; // how many times has this factory been used already?
         public override Monster Create(int playerLevel)
         {
-            if (encounterNumber == 0) // if this is the first time, return a Rat
+            Monster monster;
+            if (encounterNumber %2== 0) // return evolved snake every other encounter
             {
-                encounterNumber++;
-                return new Rat(playerLevel);
+                monster = new Snake(playerLevel);
             }
-            else if (encounterNumber == 1) // if this is the second time, return a RatEvolved
+            else 
             {
-                encounterNumber++;
-                return new RatEvolved(playerLevel);
+                monster =  new SnakeEvolved(playerLevel);
             }
-            else return null; // no more rats to fight
+            encounterNumber++;
+            return monster;
         }
         public override System.Windows.Controls.Image Hint()
         {
-            if (encounterNumber == 0) return new Rat(0).GetImage();
-            else if (encounterNumber == 1) return new RatEvolved(0).GetImage();
-            else return null;
+            return (encounterNumber % 2 == 0) ?
+                new Snake(0).GetImage() : new SnakeEvolved(0).GetImage(); 
         }
     }
 }
