@@ -74,12 +74,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Elephant.cs" />
-    <Compile Include="ElephantEvolved.cs" />
-    <Compile Include="Eye.cs" />
-    <Compile Include="EyeEvolved.cs" />
-    <Compile Include="Snake.cs" />
-    <Compile Include="SnakeEvolved.cs" />
+    <Compile Include="Engine\Items\BasicArmor\WoodArmor.cs" />
+    <Compile Include="Engine\Items\ElephantsBane.cs" />
+    <Compile Include="Engine\Items\ItemFactories\AdvancedItemFactory.cs" />
+    <Compile Include="Engine\Items\NullMagicHatchet.cs" />
+    <Compile Include="Engine\Monsters\Elephant.cs" />
+    <Compile Include="Engine\Monsters\ElephantEvolved.cs" />
+    <Compile Include="Engine\Monsters\MonsterFactories\ElephantFactory.cs" />
+    <Compile Include="Engine\Monsters\Eye.cs" />
+    <Compile Include="Engine\Monsters\EyeEvolved.cs" />
+    <Compile Include="Engine\Monsters\MonsterFactories\EyeFactory.cs" />
+    <Compile Include="Engine\Monsters\Snake.cs" />
+    <Compile Include="Engine\Monsters\SnakeEvolved.cs" />
+    <Compile Include="Engine\Monsters\MonsterFactories\SnakeFactory.cs" />
     <Page Include="Display\GamePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -162,6 +169,10 @@
     <Compile Include="Engine\Monsters\Rat.cs" />
     <Compile Include="Engine\Monsters\RatEvolved.cs" />
     <Compile Include="Engine\SaveData.cs" />
+    <Compile Include="Engine\Skills\AdvancedSpells\EarthBolt.cs" />
+    <Compile Include="Engine\Skills\AdvancedSpells\ElephantBolt.cs" />
+    <Compile Include="Engine\Skills\AdvancedSpells\BoltDecorator.cs" />
+    <Compile Include="Engine\Skills\AdvancedSpells\FireBolt.cs" />
     <Compile Include="Engine\Skills\BasicSpells\FireArrow.cs" />
     <Compile Include="Engine\Skills\BasicSpells\FireArrowDecorator.cs" />
     <Compile Include="Engine\Skills\BasicSpells\LightFlash.cs" />
@@ -171,6 +182,7 @@
     <Compile Include="Engine\Skills\BasicWeaponMoves\SwordSlash.cs" />
     <Compile Include="Engine\Skills\Skill.cs" />
     <Compile Include="Engine\Skills\SkillDecorator.cs" />
+    <Compile Include="Engine\Skills\SkillFactories\AdvancedSkillFactory.cs" />
     <Compile Include="Engine\Skills\SkillFactories\BasicSpellFactory.cs" />
     <Compile Include="Engine\Skills\BasicSpells\WindGust.cs" />
     <Compile Include="Engine\Skills\BasicSpells\WindGustDecorator.cs" />
@@ -202,10 +214,12 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Engine\Monsters\Monsters.cd" />
+    <None Include="Engine\Skills\Skills.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -270,5 +284,33 @@
     <Resource Include="Display\Assets\interaction0003.png" />
     <Resource Include="Display\Assets\interaction0004.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\monster0003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\monster0004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\monster0005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\monster0006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\monster0007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\monster0008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\item0009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\item0010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\item0011.png" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

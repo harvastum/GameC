@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows;
 using Game.Display;
 using Game.Engine.Skills;
@@ -212,13 +213,9 @@ namespace Game.Engine.CharacterClasses
         {
             // a method that helps LearnNewSkill
             // new skill means we just add it to the list
-            if (skill.decoratedSkill == null) ListOfSkills.Add(skill);
-            // otherwise we also need to remove the old one
-            else
-            {
-                ListOfSkills.Remove(skill.decoratedSkill);
-                ListOfSkills.Add(skill);
-            }
+            // And we KEEP the old one!!! We want to have the possibility to use more than just one.
+            if (!ListOfSkills.Any(item => (item.GetType() == skill.GetType() && item.decoratedSkill==skill.decoratedSkill)) )
+            ListOfSkills.Add(skill);
         }
         public List<Skill> ListAvailableSkills() 
         {

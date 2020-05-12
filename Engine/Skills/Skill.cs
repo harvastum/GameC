@@ -8,14 +8,16 @@ namespace Game.Engine.Skills
     public abstract class Skill
     {
         // a class representing a generic skill
+        public string type;
         public string PublicName { get; protected set; } // a name to be displayed in the game
         public int StaminaCost { get; protected set; } // how much does this spell cost
         public int MinimumLevel { get; protected set; } // what level do you need to learn it
         public string RequiredItem { get; protected set; } // possible items to require: "axe", "sword", "spear", "staff"
-
+        public string Name { get; set; } // short name
         public Skill decoratedSkill = null; // only decorator will use this (but it has to be here)
         protected Skill(string name, int stamina, int minLevel) // for derived classes
         {
+            Name = name;
             PublicName = name;
             StaminaCost = stamina;
             MinimumLevel = minLevel;

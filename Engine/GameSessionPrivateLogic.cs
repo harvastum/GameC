@@ -42,7 +42,7 @@ namespace Game.Engine
             while (timer.Enabled)
             {
                 // do not freeze the rest of application
-                if(Application.Current != null) Application.Current.Dispatcher.Invoke(DispatcherPriority.Background, new Action(delegate { }));
+                if(Application.Current != null)   Application.Current.Dispatcher.Invoke(DispatcherPriority.Background, new Action(delegate { }));
             }
         }
         public void RemoveItemPosition(int x, int y)

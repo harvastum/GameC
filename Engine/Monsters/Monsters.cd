@@ -15,66 +15,87 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Game.Engine.Monsters.RatEvolved" Collapsed="true" HideInheritanceLine="true">
-    <Position X="2" Y="3.75" Width="1.5" />
+    <Position X="2" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Engine\Monsters\RatEvolved.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Game.Engine.Monsters.MonsterFactories.MonsterFactory" Collapsed="true">
-    <Position X="12" Y="1.25" Width="1.5" />
+    <Position X="4.5" Y="6" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAABA=</HashCode>
       <FileName>Engine\Monsters\MonsterFactories\MonsterFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Game.Engine.Monsters.MonsterFactories.RatFactory" Collapsed="true">
-    <Position X="13.25" Y="2.75" Width="1.5" />
+    <Position X="1.25" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAABAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
       <FileName>Engine\Monsters\MonsterFactories\RatFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Game.Snake" Collapsed="true" HideInheritanceLine="true">
+  <Class Name="Game.Engine.Monsters.Snake" Collapsed="true" HideInheritanceLine="true">
     <Position X="4" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Snake.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\Snake.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Game.SnakeEvolved" Collapsed="true" HideInheritanceLine="true">
-    <Position X="4" Y="3.75" Width="1.5" />
+  <Class Name="Game.Engine.Monsters.SnakeEvolved" Collapsed="true" HideInheritanceLine="true">
+    <Position X="4" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>SnakeEvolved.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\SnakeEvolved.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Game.Eye" Collapsed="true" HideInheritanceLine="true">
+  <Class Name="Game.Engine.Monsters.Eye" Collapsed="true" HideInheritanceLine="true">
     <Position X="6" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Eye.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\Eye.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Game.EyeEvolved" Collapsed="true" HideInheritanceLine="true">
-    <Position X="6" Y="3.75" Width="1.5" />
+  <Class Name="Game.Engine.Monsters.EyeEvolved" Collapsed="true" HideInheritanceLine="true">
+    <Position X="6" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>EyeEvolved.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\EyeEvolved.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Game.Elephant" Collapsed="true" HideInheritanceLine="true">
+  <Class Name="Game.Engine.Monsters.Elephant" Collapsed="true" HideInheritanceLine="true">
     <Position X="8" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Elephant.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\Elephant.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Game.ElephantEvolved" Collapsed="true" HideInheritanceLine="true">
-    <Position X="8" Y="3.75" Width="1.5" />
+  <Class Name="Game.Engine.Monsters.ElephantEvolved" Collapsed="true" HideInheritanceLine="true">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\ElephantEvolved.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Monsters.MonsterFactories.SnakeFactory">
+    <Position X="3.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\MonsterFactories\SnakeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Monsters.MonsterFactories.EyeFactory">
+    <Position X="5.25" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ElephantEvolved.cs</FileName>
+      <FileName>Engine\Monsters\MonsterFactories\EyeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Engine.Monsters.MonsterFactories.ElephantFactory">
+    <Position X="7" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine\Monsters\MonsterFactories\ElephantFactory.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
