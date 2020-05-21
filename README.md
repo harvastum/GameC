@@ -1,3 +1,7 @@
+# What is this?
+---
+This fork was a homework for my C# class, there is probably nothing interesting to see here for anyone. If you're a recruiter and you're here to judge me, know, that I have received best possible grade and completed the assignment relatively quickly, trying to fulfill the given requirements with relatively low effort. **This code may suck in many ways, but it did what it was supposed to do.**
+
 # Added Classes
 ## Monsters
  1. Snake, SnakeEvolved
